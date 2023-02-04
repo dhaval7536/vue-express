@@ -4,11 +4,12 @@ let db = null;
 class DB {
   constructor() {
     db = mysql.createConnection({
-      host: "localhost",
-      user: "root",
-      password: "admin@123",
-      database: "demo",
+      host: "sql12.freemysqlhosting.net",
+      user: "sql12595768",
+      password: "vxTArLzfQ3",
+      database: "sql12595768",
     });
+
     db.connect(function (err) {
       if (err) console.log(err);
     });
